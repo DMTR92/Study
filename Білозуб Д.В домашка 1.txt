@@ -1,0 +1,103 @@
+<?php
+// Залишок від ділення 7 на 3
+$leftover = 7 % 3; 
+// Ціла частина ділення 7 на 7.15
+$integeramount = intval(7 / 7.15); 
+// Корінь з 25
+$squareroot = sqrt(25); 
+
+<?php
+// Залишок від ділення 7 на 3
+$leftover = 7 % 3; 
+// Ціла частина ділення 7 на 7.15
+$integeramount = intval(7 / 7.15); 
+// Корінь з 25
+$squareroot = sqrt(25); 
+
+$phrase = "Десять негритят пошли купаться в море";
+// 4-е слово
+$words = explode(" ", $phrase);
+$fourthword = $words[3]; 
+// 17-й символ
+$seventeenchar = $phrase[16];
+// Великі перші букви слів
+$capitalletters = ucwords($phrase);
+// Довжина фрази
+$length = strlen($phrase);
+
+// Чи вірно, що true дорівнює 1
+$istrue1 = (true == 1); 
+// Чи вірно, що false тотожне 0
+$isfalseequalzero = (false === 0); 
+
+// Яка строка більша
+$stringcomparison = ("three" > "три"); 
+
+// Яке число більше: 125 умножить на 13 плюс 7 або 223 плюс 28 умножить на 2
+$firstamount = 125 * 13 + 7;
+$secondamount = 223 + 28 * 2;
+$biggeramount = null;
+if ($firstamount > $secondamount) {
+    $greaterNumber = $firstamount;
+    $source = "firstamount";
+} else {
+    $greaterNumber = $secondamount;
+    $source = "secondamount";
+}
+var_dump(" Большее число: $source $greaterNumber ")
+?><?php
+// Залишок від ділення 7 на 3
+$leftover = 7 % 3; 
+<?php
+// Залишок від ділення 7 на 3
+$leftover = 7 % 3; 
+// Ціла частина ділення 7 на 7.15
+$integeramount = intval(7 / 7.15); 
+// Корінь з 25
+$squareroot = sqrt(25); 
+
+$phrase = "Десять негритят пошли купаться в море";
+// 4-е слово
+$words = explode(" ", $phrase);
+$fourthword = $words[3]; 
+// 17-й символ
+<?php
+// Залишок від ділення 7 на 3
+$leftover = 7 % 3; 
+// Ціла частина ділення 7 на 7.15
+$integeramount = intval(7 / 7.15); 
+// Корінь з 25
+$squareroot = sqrt(25); 
+
+$phrase = "Десять негритят пошли купаться в море";
+// 4-е слово
+$words = explode(" ", $phrase);
+$fourthword = $words[3]; 
+// 17-й символ
+$seventeenchar = $phrase[16];
+// Великі перші букви слів
+$capitalletters = ucwords($phrase);
+// Довжина фрази
+$length = strlen($phrase);
+
+// Чи вірно, що true дорівнює 1
+$istrue1 = (true == 1); 
+// Чи вірно, що false тотожне 0
+$isfalseequalzero = (false === 0); 
+
+// Яка строка більша
+$stringcomparison = ("three" > "три"); 
+
+// Яке число більше: 125 умножить на 13 плюс 7 або 223 плюс 28 умножить на 2
+$firstamount = 125 * 13 + 7;
+$secondamount = 223 + 28 * 2;
+$biggeramount = null;
+if ($firstamount > $secondamount) {
+    $biggeramount = $firstamount;
+    $source = "первое =";
+} else {
+    $biggeramount = $secondamount;
+    $source = "второе =";
+}
+var_dump(" Большее число $source $biggeramount ")
+?>
